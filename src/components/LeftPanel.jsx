@@ -1,5 +1,5 @@
 import React from 'react'
-import {Stack,List,ListItem,ListItemIcon, Typography, IconButton, Switch, FormControlLabel} from '@mui/material'
+import {Stack,List,ListItem,ListItemIcon, Typography, IconButton, Switch} from '@mui/material'
 import HomeIcon from '@mui/icons-material/Home';
 import LayersIcon from '@mui/icons-material/Layers';
 import PeopleIcon from '@mui/icons-material/People';
@@ -8,8 +8,7 @@ import GroupAddIcon from '@mui/icons-material/GroupAdd';
 import SettingsIcon from '@mui/icons-material/Settings';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
-import { styled } from '@material-ui/styles';
-import { useContext } from 'react';
+import styled from '@emotion/styled';
 import { useState } from 'react';
 // import DarkModeContext from '../theme/DarkModeContext'
 const LinkItem=styled(Typography)({

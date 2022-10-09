@@ -1,13 +1,14 @@
-import { AppBar, Badge, Stack, IconButton, Paper, TextField, Toolbar, InputBase, Avatar, MenuItem, Typography, Divider } from '@mui/material'
-import { FormControlLabel,Switch,Menu } from '@material-ui/core';
-import React,{useState,useRef} from 'react'
+import { AppBar, Badge, Stack, IconButton, Toolbar, InputBase, Avatar, MenuItem, Typography, Divider } from '@mui/material'
+import { FormControlLabel,Switch,Menu } from '@mui/material';
+
+import React,{useState} from 'react'
 import { Box } from '@mui/system';
 import LogoDevIcon from '@mui/icons-material/LogoDev';
 import SearchIcon from '@mui/icons-material/Search';
 import MessageIcon from '@mui/icons-material/Message';
 import EmailIcon from '@mui/icons-material/Email';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import { styled } from '@material-ui/styles';
+import styled from '@emotion/styled';
 import userImage  from '../img/userLogin.jpg'
 import CloseIcon from '@mui/icons-material/Close';
 
